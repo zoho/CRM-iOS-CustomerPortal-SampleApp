@@ -1,0 +1,583 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		10A58235D76CEEFEEECFADC3 /* Pods_ZCRM_iOS_CustomerPortal_SampleAppTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B814887B32E7E98740C8AE7D /* Pods_ZCRM_iOS_CustomerPortal_SampleAppTests.framework */; };
+		B1235430232A437A00A5D72E /* FooterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B123542F232A437A00A5D72E /* FooterView.swift */; };
+		B1235432232A440500A5D72E /* GridCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1235431232A440500A5D72E /* GridCell.swift */; };
+		B1235434232A446400A5D72E /* GridLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1235433232A446400A5D72E /* GridLayout.swift */; };
+		B1235436232A44C000A5D72E /* GridView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1235435232A44C000A5D72E /* GridView.swift */; };
+		B1235438232A44EF00A5D72E /* HeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1235437232A44EF00A5D72E /* HeaderView.swift */; };
+		B1EA88C4232A26C5006AB66A /* ListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1EA88C3232A26C5006AB66A /* ListViewController.swift */; };
+		B1EA88C6232A2708006AB66A /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1EA88C5232A2708006AB66A /* DetailViewController.swift */; };
+		B1F59692232A21F00059DE58 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1F59691232A21F00059DE58 /* AppDelegate.swift */; };
+		B1F59694232A21F00059DE58 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1F59693232A21F00059DE58 /* ViewController.swift */; };
+		B1F59699232A21F00059DE58 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B1F59698232A21F00059DE58 /* Assets.xcassets */; };
+		B1F5969C232A21F00059DE58 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B1F5969A232A21F00059DE58 /* LaunchScreen.storyboard */; };
+		B1F596A7232A21F10059DE58 /* ZCRM_iOS_CustomerPortal_SampleAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1F596A6232A21F10059DE58 /* ZCRM_iOS_CustomerPortal_SampleAppTests.swift */; };
+		F748BA9AD9B7EF3BAE0AFF72 /* Pods_ZCRM_iOS_CustomerPortal_SampleApp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8DBEE99C18E484AC30B65634 /* Pods_ZCRM_iOS_CustomerPortal_SampleApp.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		B1F596A3232A21F10059DE58 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B1F59686232A21F00059DE58 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B1F5968D232A21F00059DE58;
+			remoteInfo = "ZCRM-iOS-CustomerPortal-SampleApp";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		1AABC6A6A683E0FC00F60A06 /* Pods-ZCRM-iOS-CustomerPortal-SampleAppTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ZCRM-iOS-CustomerPortal-SampleAppTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-ZCRM-iOS-CustomerPortal-SampleAppTests/Pods-ZCRM-iOS-CustomerPortal-SampleAppTests.release.xcconfig"; sourceTree = "<group>"; };
+		43DE6CA1A928970C5D4B4706 /* Pods-ZCRM-iOS-CustomerPortal-SampleApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ZCRM-iOS-CustomerPortal-SampleApp.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ZCRM-iOS-CustomerPortal-SampleApp/Pods-ZCRM-iOS-CustomerPortal-SampleApp.debug.xcconfig"; sourceTree = "<group>"; };
+		5FB4016C863013AA3D3D1ACA /* Pods-ZCRM-iOS-CustomerPortal-SampleApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ZCRM-iOS-CustomerPortal-SampleApp.release.xcconfig"; path = "Pods/Target Support Files/Pods-ZCRM-iOS-CustomerPortal-SampleApp/Pods-ZCRM-iOS-CustomerPortal-SampleApp.release.xcconfig"; sourceTree = "<group>"; };
+		6BE4029E3DFE75225FA61F47 /* Pods-ZCRM-iOS-CustomerPortal-SampleAppTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ZCRM-iOS-CustomerPortal-SampleAppTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ZCRM-iOS-CustomerPortal-SampleAppTests/Pods-ZCRM-iOS-CustomerPortal-SampleAppTests.debug.xcconfig"; sourceTree = "<group>"; };
+		8DBEE99C18E484AC30B65634 /* Pods_ZCRM_iOS_CustomerPortal_SampleApp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ZCRM_iOS_CustomerPortal_SampleApp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B123542F232A437A00A5D72E /* FooterView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FooterView.swift; sourceTree = "<group>"; };
+		B1235431232A440500A5D72E /* GridCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GridCell.swift; sourceTree = "<group>"; };
+		B1235433232A446400A5D72E /* GridLayout.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GridLayout.swift; sourceTree = "<group>"; };
+		B1235435232A44C000A5D72E /* GridView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GridView.swift; sourceTree = "<group>"; };
+		B1235437232A44EF00A5D72E /* HeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeaderView.swift; sourceTree = "<group>"; };
+		B1EA88C3232A26C5006AB66A /* ListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListViewController.swift; sourceTree = "<group>"; };
+		B1EA88C5232A2708006AB66A /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
+		B1F5968E232A21F00059DE58 /* ZCRM-iOS-CustomerPortal-SampleApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "ZCRM-iOS-CustomerPortal-SampleApp.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B1F59691232A21F00059DE58 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		B1F59693232A21F00059DE58 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		B1F59698232A21F00059DE58 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B1F5969B232A21F00059DE58 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		B1F5969D232A21F00059DE58 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B1F596A2232A21F10059DE58 /* ZCRM-iOS-CustomerPortal-SampleAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "ZCRM-iOS-CustomerPortal-SampleAppTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B1F596A6232A21F10059DE58 /* ZCRM_iOS_CustomerPortal_SampleAppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZCRM_iOS_CustomerPortal_SampleAppTests.swift; sourceTree = "<group>"; };
+		B1F596A8232A21F10059DE58 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B814887B32E7E98740C8AE7D /* Pods_ZCRM_iOS_CustomerPortal_SampleAppTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ZCRM_iOS_CustomerPortal_SampleAppTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B1F5968B232A21F00059DE58 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F748BA9AD9B7EF3BAE0AFF72 /* Pods_ZCRM_iOS_CustomerPortal_SampleApp.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B1F5969F232A21F10059DE58 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				10A58235D76CEEFEEECFADC3 /* Pods_ZCRM_iOS_CustomerPortal_SampleAppTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4C2403F00B48802B99C7EF49 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				43DE6CA1A928970C5D4B4706 /* Pods-ZCRM-iOS-CustomerPortal-SampleApp.debug.xcconfig */,
+				5FB4016C863013AA3D3D1ACA /* Pods-ZCRM-iOS-CustomerPortal-SampleApp.release.xcconfig */,
+				6BE4029E3DFE75225FA61F47 /* Pods-ZCRM-iOS-CustomerPortal-SampleAppTests.debug.xcconfig */,
+				1AABC6A6A683E0FC00F60A06 /* Pods-ZCRM-iOS-CustomerPortal-SampleAppTests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		B1F59685232A21F00059DE58 = {
+			isa = PBXGroup;
+			children = (
+				B1F59690232A21F00059DE58 /* ZCRM-iOS-CustomerPortal-SampleApp */,
+				B1F596A5232A21F10059DE58 /* ZCRM-iOS-CustomerPortal-SampleAppTests */,
+				B1F5968F232A21F00059DE58 /* Products */,
+				4C2403F00B48802B99C7EF49 /* Pods */,
+				E5CD0246257D99D63B802B11 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		B1F5968F232A21F00059DE58 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B1F5968E232A21F00059DE58 /* ZCRM-iOS-CustomerPortal-SampleApp.app */,
+				B1F596A2232A21F10059DE58 /* ZCRM-iOS-CustomerPortal-SampleAppTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B1F59690232A21F00059DE58 /* ZCRM-iOS-CustomerPortal-SampleApp */ = {
+			isa = PBXGroup;
+			children = (
+				B1EA88C3232A26C5006AB66A /* ListViewController.swift */,
+				B1EA88C5232A2708006AB66A /* DetailViewController.swift */,
+				B123542F232A437A00A5D72E /* FooterView.swift */,
+				B1235431232A440500A5D72E /* GridCell.swift */,
+				B1235433232A446400A5D72E /* GridLayout.swift */,
+				B1235435232A44C000A5D72E /* GridView.swift */,
+				B1235437232A44EF00A5D72E /* HeaderView.swift */,
+				B1F59691232A21F00059DE58 /* AppDelegate.swift */,
+				B1F59693232A21F00059DE58 /* ViewController.swift */,
+				B1F59698232A21F00059DE58 /* Assets.xcassets */,
+				B1F5969A232A21F00059DE58 /* LaunchScreen.storyboard */,
+				B1F5969D232A21F00059DE58 /* Info.plist */,
+			);
+			path = "ZCRM-iOS-CustomerPortal-SampleApp";
+			sourceTree = "<group>";
+		};
+		B1F596A5232A21F10059DE58 /* ZCRM-iOS-CustomerPortal-SampleAppTests */ = {
+			isa = PBXGroup;
+			children = (
+				B1F596A6232A21F10059DE58 /* ZCRM_iOS_CustomerPortal_SampleAppTests.swift */,
+				B1F596A8232A21F10059DE58 /* Info.plist */,
+			);
+			path = "ZCRM-iOS-CustomerPortal-SampleAppTests";
+			sourceTree = "<group>";
+		};
+		E5CD0246257D99D63B802B11 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				8DBEE99C18E484AC30B65634 /* Pods_ZCRM_iOS_CustomerPortal_SampleApp.framework */,
+				B814887B32E7E98740C8AE7D /* Pods_ZCRM_iOS_CustomerPortal_SampleAppTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B1F5968D232A21F00059DE58 /* ZCRM-iOS-CustomerPortal-SampleApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B1F596AB232A21F10059DE58 /* Build configuration list for PBXNativeTarget "ZCRM-iOS-CustomerPortal-SampleApp" */;
+			buildPhases = (
+				1D8C108E977726E565BB4E46 /* [CP] Check Pods Manifest.lock */,
+				B1F5968A232A21F00059DE58 /* Sources */,
+				B1F5968B232A21F00059DE58 /* Frameworks */,
+				B1F5968C232A21F00059DE58 /* Resources */,
+				DF19043588345F2964D32A03 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "ZCRM-iOS-CustomerPortal-SampleApp";
+			productName = "ZCRM-iOS-CustomerPortal-SampleApp";
+			productReference = B1F5968E232A21F00059DE58 /* ZCRM-iOS-CustomerPortal-SampleApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+		B1F596A1232A21F10059DE58 /* ZCRM-iOS-CustomerPortal-SampleAppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B1F596AE232A21F10059DE58 /* Build configuration list for PBXNativeTarget "ZCRM-iOS-CustomerPortal-SampleAppTests" */;
+			buildPhases = (
+				E15E66E3125039567512BB88 /* [CP] Check Pods Manifest.lock */,
+				B1F5969E232A21F10059DE58 /* Sources */,
+				B1F5969F232A21F10059DE58 /* Frameworks */,
+				B1F596A0232A21F10059DE58 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B1F596A4232A21F10059DE58 /* PBXTargetDependency */,
+			);
+			name = "ZCRM-iOS-CustomerPortal-SampleAppTests";
+			productName = "ZCRM-iOS-CustomerPortal-SampleAppTests";
+			productReference = B1F596A2232A21F10059DE58 /* ZCRM-iOS-CustomerPortal-SampleAppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B1F59686232A21F00059DE58 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1020;
+				LastUpgradeCheck = 1020;
+				ORGANIZATIONNAME = "Umashri R";
+				TargetAttributes = {
+					B1F5968D232A21F00059DE58 = {
+						CreatedOnToolsVersion = 10.2.1;
+					};
+					B1F596A1232A21F10059DE58 = {
+						CreatedOnToolsVersion = 10.2.1;
+						TestTargetID = B1F5968D232A21F00059DE58;
+					};
+				};
+			};
+			buildConfigurationList = B1F59689232A21F00059DE58 /* Build configuration list for PBXProject "ZCRM-iOS-CustomerPortal-SampleApp" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = B1F59685232A21F00059DE58;
+			productRefGroup = B1F5968F232A21F00059DE58 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B1F5968D232A21F00059DE58 /* ZCRM-iOS-CustomerPortal-SampleApp */,
+				B1F596A1232A21F10059DE58 /* ZCRM-iOS-CustomerPortal-SampleAppTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B1F5968C232A21F00059DE58 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B1F5969C232A21F00059DE58 /* LaunchScreen.storyboard in Resources */,
+				B1F59699232A21F00059DE58 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B1F596A0232A21F10059DE58 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		1D8C108E977726E565BB4E46 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ZCRM-iOS-CustomerPortal-SampleApp-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DF19043588345F2964D32A03 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ZCRM-iOS-CustomerPortal-SampleApp/Pods-ZCRM-iOS-CustomerPortal-SampleApp-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ZCRM-iOS-CustomerPortal-SampleApp/Pods-ZCRM-iOS-CustomerPortal-SampleApp-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-ZCRM-iOS-CustomerPortal-SampleApp/Pods-ZCRM-iOS-CustomerPortal-SampleApp-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E15E66E3125039567512BB88 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ZCRM-iOS-CustomerPortal-SampleAppTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B1F5968A232A21F00059DE58 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B1F59694232A21F00059DE58 /* ViewController.swift in Sources */,
+				B1235438232A44EF00A5D72E /* HeaderView.swift in Sources */,
+				B1F59692232A21F00059DE58 /* AppDelegate.swift in Sources */,
+				B1235436232A44C000A5D72E /* GridView.swift in Sources */,
+				B1EA88C4232A26C5006AB66A /* ListViewController.swift in Sources */,
+				B1235430232A437A00A5D72E /* FooterView.swift in Sources */,
+				B1EA88C6232A2708006AB66A /* DetailViewController.swift in Sources */,
+				B1235434232A446400A5D72E /* GridLayout.swift in Sources */,
+				B1235432232A440500A5D72E /* GridCell.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B1F5969E232A21F10059DE58 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B1F596A7232A21F10059DE58 /* ZCRM_iOS_CustomerPortal_SampleAppTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		B1F596A4232A21F10059DE58 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B1F5968D232A21F00059DE58 /* ZCRM-iOS-CustomerPortal-SampleApp */;
+			targetProxy = B1F596A3232A21F10059DE58 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		B1F5969A232A21F00059DE58 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B1F5969B232A21F00059DE58 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		B1F596A9232A21F10059DE58 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_BITCODE = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		B1F596AA232A21F10059DE58 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_BITCODE = NO;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B1F596AC232A21F10059DE58 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 43DE6CA1A928970C5D4B4706 /* Pods-ZCRM-iOS-CustomerPortal-SampleApp.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = MK5V4DPPVM;
+				ENABLE_BITCODE = NO;
+				INFOPLIST_FILE = "ZCRM-iOS-CustomerPortal-SampleApp/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.zohocorp.ZCRM-iOS-CustomerPortal-SampleApp";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		B1F596AD232A21F10059DE58 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5FB4016C863013AA3D3D1ACA /* Pods-ZCRM-iOS-CustomerPortal-SampleApp.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = MK5V4DPPVM;
+				ENABLE_BITCODE = NO;
+				INFOPLIST_FILE = "ZCRM-iOS-CustomerPortal-SampleApp/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.zohocorp.ZCRM-iOS-CustomerPortal-SampleApp";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		B1F596AF232A21F10059DE58 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6BE4029E3DFE75225FA61F47 /* Pods-ZCRM-iOS-CustomerPortal-SampleAppTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "ZCRM-iOS-CustomerPortal-SampleAppTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.zohocorp.ZCRM-iOS-CustomerPortal-SampleAppTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ZCRM-iOS-CustomerPortal-SampleApp.app/ZCRM-iOS-CustomerPortal-SampleApp";
+			};
+			name = Debug;
+		};
+		B1F596B0232A21F10059DE58 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1AABC6A6A683E0FC00F60A06 /* Pods-ZCRM-iOS-CustomerPortal-SampleAppTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "ZCRM-iOS-CustomerPortal-SampleAppTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.zohocorp.ZCRM-iOS-CustomerPortal-SampleAppTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ZCRM-iOS-CustomerPortal-SampleApp.app/ZCRM-iOS-CustomerPortal-SampleApp";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B1F59689232A21F00059DE58 /* Build configuration list for PBXProject "ZCRM-iOS-CustomerPortal-SampleApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B1F596A9232A21F10059DE58 /* Debug */,
+				B1F596AA232A21F10059DE58 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B1F596AB232A21F10059DE58 /* Build configuration list for PBXNativeTarget "ZCRM-iOS-CustomerPortal-SampleApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B1F596AC232A21F10059DE58 /* Debug */,
+				B1F596AD232A21F10059DE58 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B1F596AE232A21F10059DE58 /* Build configuration list for PBXNativeTarget "ZCRM-iOS-CustomerPortal-SampleAppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B1F596AF232A21F10059DE58 /* Debug */,
+				B1F596B0232A21F10059DE58 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B1F59686232A21F00059DE58 /* Project object */;
+}
