@@ -3,7 +3,7 @@ This application makes use of the following third party libraries:
 
 ## ZCRMiOS
 
-Copyright (c) 2018 boopathyparamasivan <boopathy.p@zohocorp.com>
+Copyright (c) 2025, Zoho Corporation. All Rights Reserved.
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
